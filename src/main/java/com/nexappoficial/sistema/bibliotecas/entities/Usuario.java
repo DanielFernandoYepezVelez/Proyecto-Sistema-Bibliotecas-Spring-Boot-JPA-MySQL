@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -35,6 +36,6 @@ public class Usuario implements Serializable {
     private List<Role> roles;
 
     public Usuario() {
-        // TODO document why this constructor is empty
+        this.roles = new ArrayList<>();
     }
 }

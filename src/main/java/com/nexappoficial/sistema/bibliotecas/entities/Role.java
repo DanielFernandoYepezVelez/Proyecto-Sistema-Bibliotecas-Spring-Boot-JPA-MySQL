@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
-import java.util.List;
 
 @Entity
 @Setter
@@ -22,8 +21,8 @@ public class Role implements Serializable {
 
     private Erole nombre;
 
-    @ManyToMany(mappedBy = "roles")
-    private List<Usuario> usuarios;
+    /* @ManyToMany(mappedBy = "roles")
+    private List<Usuario> usuarios; */
 
     public Role() {
         // TODO document why this constructor is empty
