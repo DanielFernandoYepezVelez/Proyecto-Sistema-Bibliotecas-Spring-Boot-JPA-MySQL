@@ -30,8 +30,9 @@ public class LibroDto {
         // TODO document why this constructor is empty
     }
 
-    public LibroDto(Long id, String titulo, String descripcion, String favorito,
-                    Categoria categoria, Editorial editorial, List<Autor> autores) {
+    public LibroDto(Long id, String titulo, String descripcion,
+                    String favorito, Categoria categoria,
+                    Editorial editorial, List<Autor> autores) {
         this.id = id;
         this.titulo = titulo;
         this.descripcion = descripcion;

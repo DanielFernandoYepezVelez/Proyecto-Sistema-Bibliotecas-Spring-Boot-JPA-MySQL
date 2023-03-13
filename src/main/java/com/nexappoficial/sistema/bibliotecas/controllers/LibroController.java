@@ -4,7 +4,6 @@ import com.nexappoficial.sistema.bibliotecas.Utils.Constante;
 import com.nexappoficial.sistema.bibliotecas.dto.LibroDto;
 import com.nexappoficial.sistema.bibliotecas.dto.RespuestaDto;
 import com.nexappoficial.sistema.bibliotecas.services.interfaces.LibroService;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
